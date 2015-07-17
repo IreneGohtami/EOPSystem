@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/opencv/opencv/build/java/x64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/opencv/build/java/opencv-249.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/ffmpeg.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/ffmpeg-android-arm.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/ffmpeg-android-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/ffmpeg-linux-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/ffmpeg-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/ffmpeg-macosx-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/ffmpeg-windows-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/ffmpeg-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/javacpp.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/javacv.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/opencv.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/opencv-android-arm.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/opencv-android-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/opencv-linux-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/opencv-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/opencv-macosx-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/opencv-windows-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/opencv-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/videoinput.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/videoinput-windows-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/videoinput-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/artoolkitplus.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/artoolkitplus-android-arm.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/artoolkitplus-android-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/artoolkitplus-linux-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/artoolkitplus-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/artoolkitplus-macosx-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/artoolkitplus-windows-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/artoolkitplus-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/flycapture.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/flycapture-linux-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/flycapture-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/flycapture-windows-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/flycapture-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/libdc1394.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/libdc1394-linux-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/libdc1394-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/libdc1394-macosx-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/libfreenect.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/libfreenect-linux-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/libfreenect-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/libfreenect-macosx-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/libfreenect-windows-x86.jar"/>
+	<classpathentry kind="lib" path="C:/javacv-bin/libfreenect-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/imgscalr-lib-4.2.jar"/>
+	<classpathentry kind="lib" path="C:/imgscalr-lib-4.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/imgscalr-lib-4.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/miglayout15-swing.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
