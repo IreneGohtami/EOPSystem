@@ -1,73 +1,26 @@
+Guidelines to compile the source code (Using Eclipse) in a x64 Windows OS:
 
-NUI Chapter 7. Face Detection and Tracking: JavaCV Examples
+1. Download OpenCV from http://opencv.org/downloads.html, choose version 2.4.9 and install it on the C drive
 
-From the website:
-
-  Killer Game Programming in Java
-  http://fivedots.coe.psu.ac.th/~ad/jg
-
-  Dr. Andrew Davison
-  Dept. of Computer Engineering
-  Prince of Songkla University
-  Hat yai, Songkhla 90112, Thailand
-  E-mail: ad@fivedots.coe.psu.ac.th
+2. Copy the folder 'libraries' to your computer's C drive
 
 
-If you use this code, please mention my name, and include a link
-to the website.
+*In Eclipse or other IDEs:
 
-Thanks,
-  Andrew
+3. Create a new project and import all the source code from the 'test' folder
 
-============================
+4. Configure the Java Build Path and add ALL the external libraries from the 'javacv-bin' and 'others' folders that should already be in the C drive [step 2]
 
-This directory contains 1 Java example:
-  * FaceDetection.java
+5. Include the OpenCV application extension 'opencv_java249.dll' using the corresponding native library location:
+C:/opencv/opencv/build/java/x64
+This can only be done after step 1 is completed!
 
-There are 2 JPG files:
-  * group.jpg, lena.jpg
-
-There is 1 XML file, containing a Haar classifier for faces:
-  * haarcascade_frontalface_alt.xml
-         -- this was copied from the OpenCV directory: 
-            <OpenCV>\data\haarcascades\
-
-There are 2 batch files:
-  * compile.bat
-  * run.bat
-     - make sure they refer to the correct locations for your
-       downloads of JavaCV and OpenCV
+6. Click on the run button to compile and run the program
 
 
-----------------------------
-Before Compilation/Execution:
-
-You need to download and install:
-
-  * OpenCV:  I downloaded v2.4.5 for Windows with pre-compiled binaries:
-             from http://opencv.org/downloads.html
-             and installed it in C:\opencv
-
-  * JavaCV:  http://code.google.com/p/javacv/
-             I downloaded javacv-0.5-bin.zip
-             and installed it in d:\javacv-bin
-
-----------------------------
-Compilation:
-
-> compile *.java
-    // you must have JavaCV and OpenCV installed
-
-----------------------------
-Execution:
-    // you must have JavaCV and OpenCV installed for this example to work
-
-
-> run FaceDetection <image file>
-e.g.
-> run FaceDetection group.jpg
-     -- the code will load the classifier from haarcascade_frontalface_alt.xml
-     -- the image with all faces highlighted is stored in markedFaces.jpg
-
-----------------------------
-Last updated: 10th July 2013
+-------------------------------------------------------------------------------------------------------------------------
+This is an educational image processing application for young children where there are 4 lessons to choose from:
+- Colors: Users have to pick a coloured objects and show it to the webcam
+- Shapes: Users need a printed shapes with solid-defined shape structures
+- Numbers: Users to to write down the specified number on a piece of paper with a soft black marker
+- Alphabets: Users to to write down the required first letter on a piece of paper with a soft black marker
